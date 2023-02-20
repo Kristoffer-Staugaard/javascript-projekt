@@ -94,3 +94,35 @@
         z-index: 1;
         color: #FFFFFF;
       }
+  
+.slider-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+  .slider {
+    width: 60%;
+    background-color: #F2E5D7;
+    display: flex;
+    padding: 20px;
+  }
+
+  .img-container{
+    width: 50%;
+    margin-right: 10px;
+  }
+
+  .slider-img {
+    width: 100%;
+  }
+
+  .slider-text {
+    width: 50%;
+    margin-left: 10px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }

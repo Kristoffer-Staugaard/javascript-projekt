@@ -126,3 +126,13 @@
   h2 {
     margin-bottom: 10px;
   }
+
+  .link {
+    width: 70px;
+  }
+
+  .link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

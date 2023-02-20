@@ -7,6 +7,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  main {
+    padding-top: 100px;
+
+
+  }
+
   body {
     width: 100%;
     height: 100%;
@@ -23,6 +29,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     
 
   }
@@ -136,3 +146,46 @@
     flex-direction: column;
     justify-content: center;
   }
+
+
+  .omos-container{
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+
+
+  }
+ .om-os{
+  text-align: center;
+
+  }
+  
+  .om-os-paragraf{
+    padding-top: 20px;
+    font-size: 20px;
+  
+
+  }
+
+  .om-os-paragraf2{
+  font-size: 20px;
+  
+
+  }
+
+.om-os-paragraf3{
+  font-size: 20px;
+ 
+}
+
+  .om-os-paragraf4{
+  font-size: 20px;
+    
+  }
+
+  .om-os-paragraf5{
+  font-size: 20px;
+   
+  }
+

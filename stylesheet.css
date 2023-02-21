@@ -189,3 +189,22 @@
    
   }
 
+/* footer*/
+.foooter{
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#F2E5D7;
+  padding-top: 100px;
+  text-align: center;
+  align-items: baseline;
+  padding: 20px;
+  column-count: 3;
+}
+.sponsoer{
+  text-align: left;
+  /*columns: 3;*/   
+  /*font-size: 9px;*/
+}

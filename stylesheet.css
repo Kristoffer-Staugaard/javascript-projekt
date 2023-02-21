@@ -194,17 +194,39 @@
   margin-top: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color:#F2E5D7;
-  padding-top: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
   align-items: baseline;
-  padding: 20px;
   column-count: 3;
+  width: 100%;
+height: 100%;
+flex-grow: 1;
+float: right;
+;
+
 }
-.sponsoer{
+.sponsorer{
   text-align: left;
   /*columns: 3;*/   
   /*font-size: 9px;*/
+}
+
+
+.sponserer{
+text-align: center;
+}
+
+.klikher{
+  border: solid;
+  border-radius: 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+
+
+
 }

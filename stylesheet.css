@@ -238,11 +238,7 @@ text-align: center;
     border-radius: 100px;
     width:204px;
     height:204px;
-    font-size: 28px;
+    font-size: 35px;
+    color: white;
     display: flex;
-  }
-  #popup a{
-    color:white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:black;
   }

@@ -10,14 +10,3 @@ function yScrollHandler () {
   }
 }
 window.onscroll = yScrollHandler;
-window.onload = function() {
-          document.getElementById("popup").onmouseover = function()
-          {
-              this.style.backgroundColor = "#27ABDB";
-          }
-
-          document.getElementById("popup").onmouseout = function()
-          {
-              this.style.backgroundColor = "#483285";
-          }
-      }

@@ -325,3 +325,40 @@ a {
   left: 0;
 }
 }
+
+/* Slideshow */
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
+#slide {
+  width: 750px;
+  height: 500px;
+  object-fit: cover;
+}
+
+#next {
+    background-color: white;
+    border: none;
+}
+#previous {
+    background-color: white;
+    border: none;
+}
+
+.arrow {
+    width: 70px;
+}
+
+#allimgs {
+   
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}

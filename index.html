@@ -7,6 +7,7 @@
     <title>forside</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="popup.js"></script>
+    <script src="slider.js" defer></script>
   </head>
     <!-- NAVIGATIONS MENUEN -->
     <main>
@@ -38,17 +39,14 @@
     </div>
   </div>
   </div>
-  <div class="slider-container">
-    <a class="link-container"><div class="link"> <img src="billeder/1814084_arrow_back_left_previous_icon.svg" alt=""></div></a>
-    <div class="slider">
-      <div class="img-container"><img class="slider-img "src="billeder/murer-mester-martin.png" alt="Murer mester Martin"></div>
-      <div class="slider-text">
-        <h2>Murer mester Martin murer muren</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-      </div>
-    </div>
-    <a class="link-container"><div class="link"><img src="billeder/1814086_arrow_forward_next_right_icon.svg" alt=""></div></a>
+ 
+  <div class="wrap">
+    <button id="next"> <img class="arrow"src="billeder/1814084_arrow_back_left_previous_icon.svg" alt=""></button>
+      <img src="" id="slide">
+    <button id="previous"> <img class="arrow" src="billeder/1814086_arrow_forward_next_right_icon.svg" alt=""></button>
+  </div>
+  <div id="allimgs">
+    
   </div>
 
 <!--Footer-->
@@ -84,7 +82,7 @@
 
   </footer>
 </section>
-<div id="popup"><b>BLIV! <b> MEDLEM! <b> NU!</div>
+<button id="popup"><a href="organisation.html"><b> <br> KONTAKT OS!</a></button>
     </body>
     </main>
   <html>

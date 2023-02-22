@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
   main {
     padding-top: 100px;
 
@@ -18,7 +18,7 @@
     height: 100%;
     /* font montserrat*/
     font-family: 'Montserrat', sans-serif;
-  
+
   }
   /*NAVBAR*/
   nav {
@@ -33,7 +33,7 @@
     top: 0;
     width: 100%;
     z-index: 999;
-    
+
 
   }
 
@@ -42,7 +42,7 @@
     margin-left: 100px;
 
   }
-  
+
   ul {
     margin: 0;
     padding-right: 50px;
@@ -50,15 +50,15 @@
     margin-right: 50px;
 
   }
-  
+
   li {
     display: inline-block;
     margin-right: 20px;
     color: black;
 
-  
+
   }
-  
+
   a {
     color: black;
     text-decoration: none;
@@ -83,19 +83,19 @@
     filter: brightness(50%);
     position: relative;
       }
-    
+
       .overskrift1{
     position: absolute;
     padding-bottom: 50px;
-    
-    
+
+
       }
-    
-    
+
+
       .container {
         position: relative;
       }
-      
+
       .overskrift {
         position: absolute;
         top: 50%;
@@ -104,7 +104,7 @@
         z-index: 1;
         color: #FFFFFF;
       }
-  
+
 .slider-container {
   display: flex;
   justify-content: center;
@@ -160,33 +160,33 @@
   text-align: center;
 
   }
-  
+
   .om-os-paragraf{
     padding-top: 20px;
     font-size: 20px;
-  
+
 
   }
 
   .om-os-paragraf2{
   font-size: 20px;
-  
+
 
   }
 
 .om-os-paragraf3{
   font-size: 20px;
- 
+
 }
 
   .om-os-paragraf4{
   font-size: 20px;
-    
+
   }
 
   .om-os-paragraf5{
   font-size: 20px;
-   
+
   }
 
 /* footer*/
@@ -211,7 +211,7 @@ float: right;
 }
 .sponsorer{
   text-align: left;
-  /*columns: 3;*/   
+  /*columns: 3;*/
   /*font-size: 9px;*/
 }
 
@@ -230,3 +230,18 @@ text-align: center;
 
 
 }
+#popup{
+    position:fixed;
+    bottom:0px;
+    right:-352px;
+    background:#483285;
+    background-image: url(billeder/Fiske-logo.svg);
+    background-repeat: no-repeat;
+    padding:25px;
+    border-radius: 100px;
+    width:204px;
+    height:204px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+  }

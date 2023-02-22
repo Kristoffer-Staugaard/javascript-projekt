@@ -1,218 +1,218 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: 0;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  main {
-    padding-top: 100px;
-
-
-  }
-
-  body {
-    width: 100%;
-    height: 100%;
-    /* font montserrat*/
-    font-family: 'Montserrat', sans-serif;
-  
-  }
-  /*NAVBAR*/
-  nav {
-    background-color: #F2E5D7;
-    font-family: Arial, sans-serif;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    
-
-  }
-
- .logo {
-    height: 75px;
-    margin-left: 100px;
-
-  }
-  
-  ul {
-    margin: 0;
-    padding-right: 50px;
-    list-style: none;
-    margin-right: 50px;
-
-  }
-  
-  li {
-    display: inline-block;
-    margin-right: 20px;
-    color: black;
-
-  
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-
-  }
-
-
-  .knap{
-    border: solid;
-    border-radius: 20px;
-    background-color: #ffffff;
-    font-weight: bold;
-
-
-
-  }
-/*BILLEDE OG OVERSKRIFT*/
-  .havn{
-    width: 100%;
-    height: 300px;
-    filter: brightness(50%);
-    position: relative;
-      }
-    
-      .overskrift1{
-    position: absolute;
-    padding-bottom: 50px;
-    
-    
-      }
-    
-    
-      .container {
-        position: relative;
-      }
-      
-      .overskrift {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-        color: #FFFFFF;
-      }
-  
-.slider-container {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-  .slider {
-    width: 60%;
-    background-color: #F2E5D7;
-    display: flex;
-    padding: 20px;
-  }
-
-  .img-container{
-    width: 50%;
-    margin-right: 10px;
-  }
-
-  .slider-img {
-    width: 100%;
-  }
-
-  .slider-text {
-    width: 50%;
-    margin-left: 10px;
-  }
-
-  h2 {
-    margin-bottom: 10px;
-  }
-
-  .link {
-    width: 70px;
-  }
-
-  .link-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+main {
+  padding-top: 100px;
 
 
-  .omos-container{
+}
+
+body {
   width: 100%;
-  padding-top: 50px;
+  height: 100%;
+  /* font montserrat*/
+  font-family: 'Montserrat', sans-serif;
+
+}
+/*NAVBAR*/
+nav {
+  background-color: #F2E5D7;
+  font-family: Arial, sans-serif;
+  height: 100px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+
+}
+
+.logo {
+  height: 75px;
+  margin-left: 100px;
+
+}
+
+ul {
+  margin: 0;
+  padding-right: 50px;
+  list-style: none;
+  margin-right: 50px;
+
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  color: black;
+
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+
+.knap{
+  border: solid;
+  border-radius: 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+
+
+
+}
+/*BILLEDE OG OVERSKRIFT*/
+.havn{
+  width: 100%;
+  height: 300px;
+  filter: brightness(50%);
+  position: relative;
+    }
+
+    .overskrift1{
+  position: absolute;
+  padding-bottom: 50px;
+
+
+    }
+
+
+    .container {
+      position: relative;
+    }
+
+    .overskrift {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      color: #FFFFFF;
+    }
+
+.slider-container {
+display: flex;
+justify-content: center;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+
+.slider {
+  width: 60%;
+  background-color: #F2E5D7;
+  display: flex;
+  padding: 20px;
+}
+
+.img-container{
+  width: 50%;
+  margin-right: 10px;
+}
+
+.slider-img {
+  width: 100%;
+}
+
+.slider-text {
+  width: 50%;
+  margin-left: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.link {
+  width: 70px;
+}
+
+.link-container{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+}
 
 
-  }
- .om-os{
-  text-align: center;
+.omos-container{
+width: 100%;
+padding-top: 50px;
+display: flex;
+justify-content: center;
 
-  }
-  
-  .om-os-paragraf{
-    padding-top: 20px;
-    font-size: 20px;
-  
 
-  }
+}
+.om-os{
+text-align: center;
 
-  .om-os-paragraf2{
+}
+
+.om-os-paragraf{
+  padding-top: 20px;
   font-size: 20px;
-  
 
-  }
+
+}
+
+.om-os-paragraf2{
+font-size: 20px;
+
+
+}
 
 .om-os-paragraf3{
-  font-size: 20px;
- 
+font-size: 20px;
+
 }
 
-  .om-os-paragraf4{
-  font-size: 20px;
-    
-  }
+.om-os-paragraf4{
+font-size: 20px;
 
-  .om-os-paragraf5{
-  font-size: 20px;
-   
-  }
+}
+
+.om-os-paragraf5{
+font-size: 20px;
+
+}
 
 /* footer*/
 .foooter{
-  margin-top: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color:#F2E5D7;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  text-align: center;
-  align-items: baseline;
-  column-count: 3;
-  width: 100%;
+margin-top: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+background-color:#F2E5D7;
+padding-top: 25px;
+padding-bottom: 25px;
+text-align: center;
+align-items: baseline;
+column-count: 3;
+width: 100%;
 height: 100%;
 flex-grow: 1;
 float: right;
+;
 
 }
 .sponsorer{
-  text-align: left;
-  /*columns: 3;*/   
-  /*font-size: 9px;*/
+text-align: left;
+/*columns: 3;*/
+/*font-size: 9px;*/
 }
 
 
@@ -221,33 +221,27 @@ text-align: center;
 }
 
 .klikher{
-  border: solid;
-  border-radius: 20px;
-  background-color: #ffffff;
-  font-weight: bold;
-  font-size: 16px;
+border: solid;
+border-radius: 20px;
+background-color: #ffffff;
+font-weight: bold;
+font-size: 16px;
+
+
+
 }
-<<<<<<< HEAD
-
 #popup{
-    position:fixed;
-    bottom:0px;
-    right:-352px;
-    background:#483285;
-    background-image: url(billeder/Fiske-logo.svg);
-    background-repeat: no-repeat;
-    padding:25px;
-    border-radius: 100px;
-    width:204px;
-    height:204px;
-    font-size: 28px;
-    display: flex;
-  }
-  #popup a{
-    color:white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:black;
-  }
-
-=======
->>>>>>> parent of c488b5d (popup)
+  position:fixed;
+  bottom:0px;
+  right:-352px;
+  background:#483285;
+  background-image: url(billeder/Fiske-logo.svg);
+  background-repeat: no-repeat;
+  padding:25px;
+  border-radius: 100px;
+  width:204px;
+  height:204px;
+  font-size: 35px;
+  color: white;
+  display: flex;
+}

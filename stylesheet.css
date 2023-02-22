@@ -227,6 +227,7 @@ text-align: center;
   font-weight: bold;
   font-size: 16px;
 }
+<<<<<<< HEAD
 
 #popup{
     position:fixed;
@@ -248,3 +249,5 @@ text-align: center;
     -webkit-text-stroke-color:black;
   }
 
+=======
+>>>>>>> parent of c488b5d (popup)

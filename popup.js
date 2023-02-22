@@ -9,4 +9,4 @@ function yScrollHandler () {
     win.style.right = "-452px";
   }
 }
-window.onscroll = yScrollHandler;
+window.onscroll = yScrollHandler; 

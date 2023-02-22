@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forside</title>
+    <title>forside</title>
     <link rel="stylesheet" href="stylesheet.css">
-<script src="burger.js"></script>
+    <script src="popup.js"></script>
+    <script src="slider.js" defer></script>
   </head>
     <!-- NAVIGATIONS MENUEN -->
     <main>
@@ -31,7 +32,7 @@
   <span class="bar"></span>
 </div>
     </nav>
-  </header>
+
     <div class="container">
       <img class="havn" src="billeder/havn.jpeg" alt="Billede">
       <h1 class="overskrift">Karrebæksminde Fiskeri- og Bymuseum</h1>
@@ -42,22 +43,19 @@
     <div>
     <p class="om-os-paragraf">Karrebæksminde Fiskeri- og Bymuseum er et foreningsejet lokalmuseum</p> <p class="om-os-paragraf2">for Karrebæksminde.</p>
       <p class="om-os-paragraf3">Museet drives af foreningen Karrebæksminde Fiskeri- og Bymuseum.</p>
-      <p class="om-os-paragraf4">Museet er oprettet i 2004 og har til huse i Karrebæksmindes ældste hus,</p><p class="om-os-paragraf5"> Materielhuset fra 1809. </p>
+      <p class="om-os-paragraf4">Museet er oprettet i 2004 og har til huse i Karrebæksmindes ældste hus,</p><p class="om-os-paragraf5"> Materielhuset fra 1809. </p> </br>
     </div>
   </div>
   </div>
-  <div class="slider-container">
-    <a class="link-container"><div class="link"> <img src="billeder/1814084_arrow_back_left_previous_icon.svg" alt=""></div></a>
-    <div class="slider">
-      <div class="img-container"><img class="slider-img "src="billeder/murer-mester-martin.png" alt="Murer mester Martin"></div>
-      <div class="slider-text">
-        <h2>Murer mester Martin murer muren</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
+
+  <!--Slideshow-->
+    <div class="wrap">
+        <button id="next"> <img class="arrow"src="billeder/1814084_arrow_back_left_previous_icon.svg" alt=""></button>
+          <img src="" id="slide">
+        <button id="previous"> <img class="arrow" src="billeder/1814086_arrow_forward_next_right_icon.svg" alt=""></button>
       </div>
-    </div>
-    <a class="link-container"><div class="link"><img src="billeder/1814086_arrow_forward_next_right_icon.svg" alt=""></div></a>
-  </div>
+      <div id="allimgs">
+      </div>
 
 <!--Footer-->
 <section id="kontakt">
@@ -77,22 +75,44 @@
     <div>
       <h1>Åbningstider</h1>
 <p>Mandag: 11-17</p>
-        <p>Tirsdag: 11-17</p>
-          <p> Onsdag: 11-17</p>
-            <p> Torsdag: 11-17</p>
-              <p> Fredag: 11-17</p>
-                <p> Lørdag: 11-17</p>
-                  <p> Søndag: 11-17</p>
+<p>Tirsdag: 11-17</p>
+<p> Onsdag: 11-17</p>
+<p> Torsdag: 11-17</p>
+<p> Fredag: 11-17</p>
+<p> Lørdag: 11-17</p>
+<p> Søndag: 11-17</p>
       </div>
       <div class="sponsor2">
       <h1 class="sponserer">Sponsorer</h1>
        <button class="klikher"><a href="#">Klik her</a></button>
       </div>
     </div>
-
+    <div>
+      <h1>Sponsorer</h1>
+      <div class ="sponsoer">
+        <p>Kanal kroen</p>
+        <p>Marine Technic</p>
+        <p>Martens Røgeri</p>
+        <p>Næstved Skilte</p>
+        <p>Næstvedmægleren</p>
+        <p>Pandekagehuset</p>
+        <p>V. Jørgensen VVS</p>
+        <p>El og Teknik</p>
+        <p>Enø Camping</p>
+        <p>Erhversforeningen Karrebæksminde  </p>
+        <p>Enø Spisehus</p>
+        <p>Fiskehuset Enø</p>
+        <p>Visuel Grafisk</p>
+        <p>Sandved Smede- og Maskinforretning</p>
+        <p>Smålandshavet Restaurant og Kursuscenter</p>
+        <p>Sydbank</p>
+        <p>Tommy R. N. Martens</p>
+      </div>
+    </div>
+  </div>
   </footer>
 </section>
-<div id="popup"><b>BLIV! <b> MEDLEM! <b> NU!</div>
+<button id="popup"><a href="organisation.html"><b> <br> KONTAKT OS!</a></button>
     </body>
     </main>
   <html>

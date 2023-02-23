@@ -21,26 +21,105 @@ body {
 
 }
 /*NAVBAR*/
-nav {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
   background-color: #F2E5D7;
-  font-family: Arial, sans-serif;
-  height: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  min-height: 70px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+  padding: 0 24px;
+}
 
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
 
+.nav-branding {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #524897;
+}
+
+.burgermenu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: black
+}
+
+@media(max-width:768px) {
+  .burgermenu {
+      display: block;
+  }
+
+  .burgermenu.active .bar:nth-child(2) {
+  opacity: 0;
+  }
+  .burgermenu.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+      }
+      .burgermenu.active .bar:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+          }
+  
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #F2E5D7;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      z-index: 2;
+  }
+
+  .nav-item{
+      margin: 16px 0;
+  }
+
+  .nav-menu.active {
+      left: 0;
+  }
 }
 
 .logo {
-  height: 75px;
-  margin-left: 100px;
-
+  height: 50px;
+  margin-right: 100px;
 }
 
 ul {
@@ -82,7 +161,7 @@ a {
   height: 300px;
   filter: brightness(50%);
   position: relative;
-    }
+}
 
     .overskrift1{
   position: absolute;
@@ -180,8 +259,8 @@ font-size: 20px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
 }
 

@@ -324,3 +324,34 @@ font-size: 16px;
   -webkit-text-stroke-width: 2px;
   -webkite-text-stroke-color: black;
 }
+/* Nu kommer organisation style billeder til den anden side*/
+#demo{
+  text-align: center;
+  margin: 30px;
+  }
+  
+  .mainphoto{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+    columns: 2;
+  }
+  
+  .photo{
+    padding: 10px;
+    flex: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction:column ;
+    margin: 10px;
+    border: 100px;
+  }
+  
+  .billeder{
+    height: 20vh;
+    width: 20vh;
+    margin: auto;
+    border: 7px solid #F2E5D7;
+    border-radius: 10px;
+  }

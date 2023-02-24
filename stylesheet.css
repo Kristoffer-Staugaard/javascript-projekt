@@ -334,12 +334,11 @@ font-size: 16px;
 }
 
 #scroller-text{
-  font-size: 50px;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   border: 20px;
-  width: 735px;
-  font-size: 20px;  
+  padding-top: 20px;
+  text-align: center;  
    }
   #scroll-button{
    border: solid;
@@ -353,6 +352,8 @@ font-size: 16px;
    font-size: 16px;
    display: flex;
    justify-content: center;
+   margin-left:667.5px;
+   margin-top: 10px;
   }
   
 

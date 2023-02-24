@@ -19,3 +19,12 @@ let cubes = [
        select_element.innerHTML +="<div class='photo' > <img class='billeder'  src='"+ cubes[i][0]+"' ></a><p>"+ cubes[i][1]+"</p>  "+ cubes[i][2]+" "+ cubes[i][3]+" </div>";
    }
 
+   let r=confirm("Press ok button");
+   if (r==true)
+     {
+     x="OK!";
+     }
+   else
+     {
+     x="Anulleret!";
+     }

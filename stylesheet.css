@@ -332,6 +332,30 @@ font-size: 16px;
   -webkit-text-stroke-width: 2px;
   -webkite-text-stroke-color: black;
 }
+
+#scroller-text{
+  font-size: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  border: 20px;
+  width: 735px;
+  font-size: 20px;  
+   }
+  #scroll-button{
+   border: solid;
+   border-radius: 20px;
+   background-color: #ffffff;
+   font-weight: bold;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+  }
+  
+
 /* Nu kommer organisation style billeder til den anden side*/
 #demo{
   text-align: center;

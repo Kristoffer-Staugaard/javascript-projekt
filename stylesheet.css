@@ -120,6 +120,7 @@ a{
   .nav-menu.active {
       left: 0;
   }
+
 }
 
 .logo {
@@ -242,7 +243,7 @@ font-size: 20px;
 }
 
 #slide {
-  width: 750px;
+  width: 500px;
   height: 500px;
   object-fit: cover;
 }

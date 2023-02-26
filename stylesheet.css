@@ -384,8 +384,8 @@ font-size: 16px;
   }
   
   .billeder{
-    height: 20vh;
-    width: 20vh;
+    height: 100px;
+    width: 100px;
     margin: auto;
     border: 7px solid #F2E5D7;
     border-radius: 10px;
